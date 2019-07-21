@@ -1,0 +1,8 @@
+ what happens in the .git folder when these happen
+ - make a branch
+    
+ - add commits
+ - open a pull request
+ - discuss and review code
+ - deploy
+ - merge
