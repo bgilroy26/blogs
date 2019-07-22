@@ -2,11 +2,18 @@
  - make a branch
     - .git/branches has the branch in it
     - .git/refs/heads/<branch name> contains the SHA1 of the commit
-    - .git/objects
+    - HEAD points to current latest commit
  - add commits
-    -     
+    - refs/heads/master changes (or whatever branch you are on)    
+    - commit is added to /objects
+    - HEAD is moved to current latest commit
+ - create remote
+    - name of remote is added to /refs/remotes/
+    - name of branch is added to /refs/remotes/<name of remote>
  - open a pull request
     - this is github only
  - discuss and review code
- - deploy
+    - show screenshots
  - merge
+    - git cat-file -p <merge commit SHA1>
+        - shows two parents
