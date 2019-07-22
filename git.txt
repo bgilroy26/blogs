@@ -1,8 +1,12 @@
  what happens in the .git folder when these happen
  - make a branch
-    
+    - .git/branches has the branch in it
+    - .git/refs/heads/<branch name> contains the SHA1 of the commit
+    - .git/objects
  - add commits
+    -     
  - open a pull request
+    - this is github only
  - discuss and review code
  - deploy
  - merge
