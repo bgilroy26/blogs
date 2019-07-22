@@ -1,3 +1,14 @@
+ history
+  - rcs cvs subversion git
+ git flow
+  - make a branch
+  - add commits
+  - create remote
+  - open pull request
+  - merge
+ internals intro
+  - SHA1s
+  - 4 types
  what happens in the .git folder when these happen
  - make a branch
     - .git/branches has the branch in it
